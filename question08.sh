@@ -1,8 +1,8 @@
 #!/bin/bash
-# Create a directory named dir2
-mkdir dir2
 
-# Move all text files from the current directory to dir2
+# Create the directory and file
+mkdir dir2
 mv *.txt dir2/
-git add dir2/*.txt
+# Stage the directory and its contents
+git add dir2
 git commit -m "Move text files to dir2"
