@@ -7,3 +7,4 @@ mv *.txt dir2/
 # Stage the directory and its contents
 git add dir2/*.txt
 git commit -m "Move text files to dir2"
+git push
