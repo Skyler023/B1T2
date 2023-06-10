@@ -10,4 +10,4 @@ mv *.txt dir2/
 git add dir2
 
 # Commit the changes
-git commit -m "Moving text files to dir2"
+git commit -m "Move text files to dir2"
