@@ -1,10 +1,16 @@
 #!/bin/bash
 
-git checkout -b branch2
+# Create branch1
+git branch branch2
+
+# Switch to branch1
+git checkout branch2
+
+# Create file3
 touch file4
+
+# Stage file3
 git add file4
-git commit -m "Add file4"
-echo "Modified content" >> file4
+
 git stash
 git checkout main
-git stash apply
